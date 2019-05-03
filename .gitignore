@@ -7,3 +7,4 @@
 __pycache__
 # Ignore model directory.
 model/
+.vscode/

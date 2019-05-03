@@ -25,14 +25,14 @@ Setup OpenVINO on your machine, choose your OS on [this page](https://software.i
 `pip3 install -r requirements.txt`
 
 
-Run the `setupvars.bat` before launching jupyter notebook.
+Run the `setupvars.bat` before calling `jupyter notebook`.
 ```
-C:\Intel\computer_vision_sdk\bin\setupvars.bat
+"C:\Program Files (x86)\IntelSWTools\openvino_2019.1.133\bin\setupvars.bat"
 ```
 Or in Linux
 add the following line to `~/.bashrc`
 ```
-source ~/intel/computer_vision_sdk/bin/setupvars.sh
+source /opt/intel/openvino/bin/setupvars.sh
 ```
 In a terminal run,
 ```
@@ -42,4 +42,10 @@ jupyter notebook
 In the opened browser window open
 ```
 keras-openvino-ImageNet.ipynb
+```
+
+### Run Inference on NCS (Neural compute stick 1 or 2)
+Once you have the inference model, plugin the NCS, run this script.
+```
+python3 ncs_inference.py
 ```

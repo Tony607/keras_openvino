@@ -1,7 +1,5 @@
 ## Inference test with OpenVINO Inference Engine(IE)
 
-# Check path like `C:\Intel\computer_vision_sdk\python\python3.5` or `~/intel/computer_vision_sdk/python/python3.5` exists in `PYTHONPATH`.
-
 
 from PIL import Image
 import numpy as np
@@ -9,7 +7,9 @@ import platform
 import os
 
 
+# Check path  exists in `PYTHONPATH`.
 is_win = 'windows' in platform.platform().lower()
+
 """ 
 # OpenVINO 2018.
 if is_win:

@@ -27,7 +27,7 @@ Setup OpenVINO on your machine, choose your OS on [this page](https://software.i
 
 Run the `setupvars.bat` before calling `jupyter notebook`.
 ```
-"C:\Program Files (x86)\IntelSWTools\openvino_2019.1.133\bin\setupvars.bat"
+"C:\Program Files (x86)\IntelSWTools\openvino\bin\setupvars.bat"
 ```
 Or in Linux
 add the following line to `~/.bashrc`

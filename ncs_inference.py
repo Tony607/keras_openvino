@@ -20,7 +20,7 @@ else:
 
 # OpenVINO 2019.
 if is_win:
-    message = 'Please run "C:\Program Files (x86)\IntelSWTools\openvino_2019.1.133\bin\setupvars.bat" before running this.'
+    message = 'Please run "C:\Program Files (x86)\IntelSWTools\openvino\bin\setupvars.bat" before running this.'
 else:
     message = "Add the following line to ~/.bashrc and re-run.\nsource /opt/intel/openvino/bin/setupvars.sh"
 
